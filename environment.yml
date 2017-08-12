@@ -1,0 +1,27 @@
+name: dl-uts
+channels:
+    - https://conda.anaconda.org/menpo
+    - conda-forge
+dependencies:
+    - python==3.5.2
+    - numpy
+    - matplotlib
+    - jupyter
+    - opencv3
+    - pillow
+    - scikit-learn
+    - scikit-image
+    - scipy
+    - h5py
+    - eventlet
+    - flask-socketio
+    - seaborn
+    - pandas
+    - pyqt=4.11.4
+    - pip:
+        - tensorflow
+        - keras
+
+# comment this part out if you are on macOS/Linux        
+build:
+  ignore_prefix_files: True

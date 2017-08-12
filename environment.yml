@@ -21,7 +21,3 @@ dependencies:
     - pip:
         - tensorflow
         - keras
-
-# comment this part out if you are on macOS/Linux        
-build:
-  ignore_prefix_files: True

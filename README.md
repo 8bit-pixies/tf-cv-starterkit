@@ -13,7 +13,14 @@ Overview
 Setup
 =====
 
-Install anaconda or miniconda from here: https://www.continuum.io/downloads
+Install anaconda or miniconda from here: https://www.continuum.io/downloads or here https://conda.io/miniconda.html
+
+Install miniconda on your machine. Detailed instructions:
+
+*  Linux: http://conda.pydata.org/docs/install/quick.html#linux-miniconda-install
+*  Mac: http://conda.pydata.org/docs/install/quick.html#os-x-miniconda-install
+*  Windows: http://conda.pydata.org/docs/install/quick.html#windows-miniconda-install
+
 If you are on windows rename `meta_windows_patch.yml` to `meta.yml`
 
 **1 Create your `conda` environment**
@@ -24,11 +31,7 @@ conda env create -f environment.yml
 
 **2 Activate your environment**
 
-The easiest way is to launch a jupyter notebook and select the correct kernel. 
-
-![screenshot](screenshot.png)
-
-Otherwise you can use:
+Use (*nix):
 
 ```
 source activate dl-uts
@@ -39,6 +42,10 @@ Or on Windows:
 ```
 activate dl-uts
 ```
+
+**3 (Optional) Run Jupyter Notebook Server**
+
+Once you have activated the environment, you can then run `jupyter notebook` and TensorFlow should now be available for you.
 
 
 Troubleshooting

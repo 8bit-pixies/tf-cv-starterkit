@@ -19,5 +19,5 @@ dependencies:
     - pandas
     - pyqt=4.11.4
     - pip:
-        - tensorflow
+        - tensorflow=1.2.1
         - keras

@@ -21,3 +21,4 @@ dependencies:
     - pip:
         - tensorflow=1.2.1
         - keras
+        - faker
